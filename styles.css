@@ -1,0 +1,106 @@
+body{
+  background-image:url('Desktop - 1.png');
+  margin: 0;
+}
+h1{
+  position: absolute;
+  width: 215.08px;
+  height: 85px;
+  left: 68.21px;
+  top: 95px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 85px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.dot{
+  position: absolute;
+  width: 30px;
+  height: 24.97px;
+  left: 276px;
+  top: 183px;
+  border-radius: 50%;
+  background: #0A65FF;
+}
+#fName{
+  position: absolute;
+  width: 212.68px;
+  height: 69px;
+  left: 61px;
+  top: 272px;
+  border: none;
+  background: rgba(56, 59, 68, 0.57);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+#lName{
+  position: absolute;
+  width: 212.68px;
+  height: 69px;
+  left: 303.72px;
+  top: 272px;
+  background: rgba(56, 59, 68, 0.57);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+  border: none;
+}
+#uName{
+  position: absolute;
+  width: 455.39px;
+  height: 69px;
+  left: 61px;
+  top: 399px;
+  border: none;
+  background: rgba(56, 59, 68, 0.57);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+#pass{
+  position: absolute;
+  width: 455.39px;
+  height: 69px;
+  left: 61px;
+  top: 526px;
+  border:none;
+  background: rgba(56, 59, 68, 0.57);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+
+.lgn-btn{
+  position: absolute;
+  width: 212.68px;
+  height: 69px;
+  left: 303.72px;
+  top: 624px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background: #0A65FF;
+  border-radius: 30px;
+}
+.fgt-btn{
+  position: absolute;
+  width: 212.68px;
+  height: 69px;
+  left: 61px;
+  top: 624px;
+  font-family: 'Poppins', sans-serif;
+  background: rgba(56, 59, 68, 0.57);
+  border-radius: 30px;
+  color: #757575;
+}
