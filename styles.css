@@ -38,6 +38,7 @@ h1{
   padding-top: 0px;
   padding-bottom: 0px;
   color: white;
+  text-transform: uppercase;
 }
 #lName{
   position: absolute;
@@ -52,6 +53,7 @@ h1{
   padding-bottom: 0px;
   color: white;
   border: none;
+  text-transform: uppercase;
 }
 #uName{
   position: absolute;
@@ -92,7 +94,17 @@ h1{
   color: white;
   background: #0A65FF;
   border-radius: 30px;
+  border: none;
 }
+
+.lgn-btn:hover{
+    background: #2874f9;
+}
+
+.lgn-btn:active{
+    background: #0A65FF;
+}
+
 .fgt-btn{
   position: absolute;
   width: 212.68px;
@@ -103,4 +115,13 @@ h1{
   background: rgba(56, 59, 68, 0.57);
   border-radius: 30px;
   color: #757575;
+  border: none;
+}
+
+.fgt-btn:hover{
+    background: rgba(61, 63, 73, 0.57);
+}
+
+.fgt-btn:active{
+    background: rgba(56, 59, 68, 0.57);
 }
