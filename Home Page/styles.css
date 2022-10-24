@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    font-family: 'Graduate', cursive;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #FAD9D9;
+}
+
+.circle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 481.73px;
+    height: 481.73px;
+    left: 927.16px;
+    top: 204.78px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FBADAD 8.76%, rgba(217, 217, 217, 0) 100%);
+    filter: blur(2.5px);
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    min-width: 150px;
+}
+
+
+
+.logo-img {
+    width: 3rem;
+}
+
+.left-navbar>h2 {
+    margin: 10px auto;
+    font-size: 1rem;
+    color: #7b1e05;
+}
+
+.search-img {
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    /* width: 14px; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 2px 20px 4px #ecbcbc;
+    padding: 20px 0;
+}
+
+.left-navbar {
+    display: flex;
+    gap: 50px;
+}
+
+h2:hover {
+    text-decoration: underline;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #464b4d;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-in-out;
+}
+
+h2:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.right-navbar {
+    margin-left: 300px;
+    display: flex;
+    gap: 10px;
+}
+
+.search-box {
+    background-color: #e5c4c4;
+    position: relative;
+    border-radius: 50px;
+    border: none;
+    margin-right: 30px;
+    padding: 2px 20px 2px 40px;
+}
+
+.heading-container1>h1 {
+    position: absolute;
+    width: 598px;
+    height: 389px;
+    left: 144.55px;
+    top: 160px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 87px;
+    line-height: 99px;
+    color: #B84141;
+}
+
+button {
+    background-color: #FAD9D9;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.logo {
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 30px;
+    top: -20px;
+}
+
+.heading-overlay {
+    position: absolute;
+    width: 383.22px;
+    height: 97.63px;
+    left: 113px;
+    top: 468.86px;
+
+    background: #F8CF41;
+    mix-blend-mode: multiply;
+    transform: rotate(-3.83deg);
+}
+
+.logo::before {
+
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    z-index: -2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+    animation: rotate 10s linear infinite;
+}
+
+.logo::after {
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 5px;
+    top: 5px;
+    /* margin: 5px; */
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-color: #fad9d9;
+}
+
+
+.right-navbar>.sign_in {
+    font-size: 1rem;
+    color: #7b1e05;
+}
+
+.right-navbar>.sign_in:hover {
+    border: #7b1e05 solid 1px;
+    border-radius: 30px;
+    background-color: #f6e6e6;
+}
+
+.right-navbar>.sign_up {
+    font-size: 1rem;
+    border: 1px solid #7b1e05;
+    background-color: #7b1e05;
+    color: white;
+    padding: 0 10px;
+    border-radius: 30px;
+
+}
+
+
+
+.front-img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 890px;
+    top: 150px;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.heading {
+    font-size: 10rem;
+    text-decoration: underline;
+}
+
+.head {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.page1 {
+    margin-top: 100px;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-container1>.sign_in {
+    font-size: 1rem;
+    color: #7b1e05;
+    position: absolute;
+    width: 141px;
+    height: 47px;
+    left: 144.55px;
+    top: 608px;
+}
+
+.lot-animation{
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    bottom: 10px;
+    left: 50%;
+}
+
+.remove-animation {
+    display: none;
+}
+
+.button-container1>.sign_up {
+    font-size: 1rem;
+    border: 1px solid #7b1e05;
+    background-color: #7b1e05;
+    color: white;
+    padding: 0 10px;
+    border-radius: 30px;
+    position: absolute;
+    width: 141px;
+    height: 47px;
+    left: 340.55px;
+    top: 608px;
+}
